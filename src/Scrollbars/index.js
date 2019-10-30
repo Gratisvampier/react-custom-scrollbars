@@ -588,6 +588,7 @@ export default class Scrollbars extends Component {
               paddingRight: scrollbarWidth,
               paddingBottom: scrollbarWidth,
               width: '100%',
+              boxSizing: 'border-box',
             },
           }, children),
       ),
